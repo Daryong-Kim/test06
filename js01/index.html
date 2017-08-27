@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+    <div id="btn">ボタンだよ</div>
+    <div id="btn1">ボタン1だよ</div>
+    <div id="btn2">ボタン2だよ</div>
+
+  <script>
+    // console.log("はじめてのジャバスクリプト");
+    // console.log(23 * 5);
+    // console.log(2000 / 1800);
+    // console.log(18 % 5);
+    //
+    // var name ="きむだるよん";
+    // console.log(name);
+    // console.log("name");
+    //
+    // var point = 80;
+    //
+    // if(point == 80){
+    //   console.log("素晴らしい！");
+    // }else{
+    //   console.log("頑張りましょう。。");
+    // }
+
+    // var rand = Math.floor(Math.random() * 5);
+    // // console.log(rand);
+    //
+    // if(rand == 0){
+    //   console.log("すごい");
+    // }else if (rand == 1) {
+    //   console.log("すごいね");
+    // }else if (rand == 2) {
+    //   console.log("ふつう");
+    // }else if (rand == 3) {
+    //   console.log("いまいち");
+    // }else {
+    //   console.log("ざんねん");
+    // }
+
+
+    //配列です
+    // var array = ['a', 'b', 'c'];
+
+    // console.log(array);
+
+    // var array0 = ["ぶどう", "りんご", "ばなな", "さくらんぼ", "めろん", "おれんじ"];
+    //
+    // array0.push("ぱいなっぷる");
+    //
+    // console.log(array0);
+
+    // var i = 0;
+    // for(i = 0; i <= 50; i++){
+    //   console.log(i);
+    // }
+
+ //これを用いることで場所を特定することが出来る（取得する）
+    var btn = document.getElementById('btn');
+    var btn1 = document.getElementById('btn1');
+    var btn2 = document.getElementById('btn2');
+
+    btn.addEventListener('click',function(){
+      btn.innerHTML = '変更したよ';
+    });
+
+    btn1.addEventListener('click',function(){
+      btn1.innerHTML = '<h1>はじめてのジャバスクリプト<h1>';
+    })
+
+    btn2.addEventListener('click',function(){
+      btn.innerHTML = '<img src="https://ord.yahoo.co.jp/o/image/RV=1/RE=1503902437/RH=b3JkLnlhaG9vLmNvLmpw/RB=/RU=aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9na0gzWnJXY1hlOC9tYXhyZXNkZWZhdWx0LmpwZw--/RS=%5EADBnZZXn0LEMgTyv7lFZO7cc_pPfvA-;_ylt=A2Rivb1laaJZ2xAAQwyU3uV7;_ylu=X3oDMTAyN3Vldmc1BDAD;_ylc=X3IDMgRmc3QDMQRpZHgDMARvaWQDQU5kOUdjUjhyZUt6VkJ2UTctdi1SaTRvSUhPSFQtUzZZNGZRcmhYNHdrR1AwZjhORGd0YnFnNGg3Y3cxZHkzUwRwAzQ0T2g0NEtrNDRLbTQ0S240NEsyNDRPOARwb3MDMgRzZWMDc2h3BHNsawNzZnN0BHR1cmwDaHR0cHM6Ly9tc3AuYy55aW1nLmpwL3lqaW1hZ2U_cT1PUldxUUJVWHlMR2I5SFR4dkREVTBPYUFhZGVHRnVBZWhFTjBzcTQ5ODZKSWNFTVdpNmlObkYxRTcwYVAubTFQRVZLTWlPYXFMbjhOYS5WelhFSDdMUlRwVkY3WkdFWEY1cHZwM3FoOS5DMkRqTnVicUdoNEdDNXNlWkUzTG5Ga1U5eW9vYWpJcXduSmlSLjZqZmE4JnNpZz0xM2F1cGRwdmM-">';
+    })
+
+
+  </script>
+
+</body>
+</html>
